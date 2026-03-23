@@ -14,6 +14,8 @@ npm run web
 
 ```
 npx create-expo-app@latest --template default@next
+
+pnpm dlx create-expo-app@latest --template default@next
 ```
 
 == emulator
@@ -37,4 +39,12 @@ npx expo prebuild
 cd android
 gradlew assembleRelease
 adb install -r app/build/outputs/apk/release/app-release.apk
+```
+
+== pnpm
+```
+pnpm create expo-app myApp
+cd myApp
+pnpm install
+pnpm start
 ```

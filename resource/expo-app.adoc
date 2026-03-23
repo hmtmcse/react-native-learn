@@ -6,6 +6,8 @@ cd bismillah
 npm run android
 npm run ios
 npm run web
+
+
 ```
 
 
@@ -27,4 +29,12 @@ emulator -avd Pixel_5_API_33 -gpu auto -no-snapshot-load
 == Expo
 ```
 npm install -g expo-cli
+```
+
+== Android Build
+```
+npx expo prebuild
+cd android
+gradlew assembleRelease
+adb install -r app/build/outputs/apk/release/app-release.apk
 ```

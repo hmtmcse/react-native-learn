@@ -1,0 +1,9 @@
+
+
+```
+npx create-expo-app bismillah
+cd bismillah
+npm run android
+npm run ios
+npm run web
+```

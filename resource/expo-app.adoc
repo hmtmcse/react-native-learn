@@ -39,6 +39,9 @@ npx expo prebuild
 cd android
 gradlew assembleRelease
 adb install -r app/build/outputs/apk/release/app-release.apk
+
+# Dev Environement
+pnpm expo run:android
 ```
 
 == pnpm

@@ -7,3 +7,24 @@ npm run android
 npm run ios
 npm run web
 ```
+
+
+
+```
+npx create-expo-app@latest --template default@next
+```
+
+== emulator
+```
+emulator -list-avds
+emulator -avd Pixel_6_Pro
+adb devices
+adb -s emulator-5554 emu kill
+
+emulator -avd Pixel_5_API_33 -gpu auto -no-snapshot-load
+```
+
+== Expo
+```
+npm install -g expo-cli
+```

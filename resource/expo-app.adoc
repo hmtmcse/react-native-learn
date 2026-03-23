@@ -48,3 +48,11 @@ cd myApp
 pnpm install
 pnpm start
 ```
+
+== Drawer
+```
+pnpm create expo-app rnn-drawer --template expo-template-blank-typescript
+cd rnn-drawer
+pnpm install
+pnpm add @react-navigation/drawer @react-navigation/native @react-navigation/native-stack react-native-gesture-handler react-native-reanimated react-native-screens react-native-safe-area-context react-native-vector-icons
+```

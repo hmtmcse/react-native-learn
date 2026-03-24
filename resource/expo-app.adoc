@@ -62,7 +62,7 @@ pnpm add @react-navigation/drawer @react-navigation/native @react-navigation/nat
 
 == Bottom Menu
 ```
-pnpm create expo-app rnn-bottom-menu -t blank-typescript
-cd rnn-bottom-menu
+pnpm create expo-app expo-feature-explor -t blank-typescript
+cd expo-feature-explor
 pnpm install
 ```

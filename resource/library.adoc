@@ -1,3 +1,23 @@
 
 
 * https://reactnativereusables.com/
+
+
+
+== expo libs
+1. expo-camera
+2. expo-sharing
+3. expo-web-browser
+4. expo-file-system
+5. expo-image
+6. expo-image-manipulator
+7. expo-image-picker
+8. expo-localization
+9. expo-notifications
+10. expo-audio
+11. expo-calendar
+12. expo-clipboard
+13. expo-contacts
+14. expo-linking
+15. expo-media-library
+16. expo-splash-screen

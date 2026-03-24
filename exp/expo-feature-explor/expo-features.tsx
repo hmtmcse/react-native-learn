@@ -17,6 +17,8 @@ import * as Contacts from 'expo-contacts';
 import * as Linking from 'expo-linking';
 import * as MediaLibrary from 'expo-media-library';
 
+import CameraScreen from './screen/camera-screen';
+
 const Drawer = createDrawerNavigator();
 
 function HomeScreen() {
@@ -24,16 +26,6 @@ function HomeScreen() {
         <ScrollView>
             <Text style={{fontSize: 20}}>Expo All Features Demo</Text>
         </ScrollView>
-    );
-}
-
-function CameraScreen() {
-    const [permission, requestPermission] = Camera.useCameraPermissions();
-    return (
-        <View>
-            <Text>Camera</Text>
-            <Button title="Request Camera" onPress={requestPermission}/>
-        </View>
     );
 }
 
@@ -162,8 +154,6 @@ export default function ExpoFeatures() {
                 <Drawer.Screen name="ImagePicker" component={ImagePickerScreen}/>
                 <Drawer.Screen name="FileSystem" component={FileSystemScreen}/>
                 <Drawer.Screen name="Share" component={ShareScreen}/>
-
-
                 <Drawer.Screen name="Clipboard" component={ClipboardScreen}/>
                 <Drawer.Screen name="Linking" component={LinkingScreen}/>
                 <Drawer.Screen name="Localization" component={LocalizationScreen}/>

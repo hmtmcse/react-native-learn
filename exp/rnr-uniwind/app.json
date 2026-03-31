@@ -1,11 +1,11 @@
 {
   "expo": {
-    "name": "rnr-bismillah",
-    "slug": "rnr-bismillah",
+    "name": "minimal",
+    "slug": "minimal",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/images/icon.png",
-    "scheme": "rnr-bismillah",
+    "scheme": "minimal",
     "userInterfaceStyle": "automatic",
     "splash": {
       "image": "./assets/images/splash.png",
@@ -23,7 +23,7 @@
         "foregroundImage": "./assets/images/adaptive-icon.png",
         "backgroundColor": "#ffffff"
       },
-      "package": "com.anonymous.rnrbismillah"
+      "package": "com.anonymous.minimal"
     },
     "web": {
       "bundler": "metro",

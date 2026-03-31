@@ -1,0 +1,15 @@
+{
+  "expo": {
+    "scheme": "acme",
+    "userInterfaceStyle": "automatic",
+    "orientation": "default",
+    "web": {
+      "output": "static"
+    },
+    "name": "uniwind-bismillah",
+    "slug": "uniwind-bismillah",
+    "android": {
+      "package": "com.anonymous.uniwindbismillah"
+    }
+  }
+}

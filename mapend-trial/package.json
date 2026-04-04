@@ -1,0 +1,12 @@
+{
+  "name": "mapend-trial",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "android": "pnpm --filter starter run android"
+  },
+  "keywords": [],
+  "author": "Touhid Mia",
+  "packageManager": "pnpm@10.33.0"
+}

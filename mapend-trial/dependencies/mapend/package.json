@@ -1,0 +1,61 @@
+{
+  "name": "mapend",
+  "version": "0.0.2",
+  "description": "Maintainable App End Framework - mapend",
+  "dependencies": {
+    "mmcore": "workspace:*",
+    "mapend-core": "workspace:*"
+  },
+  "license": "Apache-2.0",
+  "main": "src/index.ts",
+  "module": "src/index.ts",
+  "types": "src/index.ts",
+  "author": {
+    "name": "Bangla Fighter",
+    "url": "https://banglafighter.org"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/banglafighter/mfront"
+  },
+  "homepage": "https://github.com/banglafighter/mfront#readme",
+  "bugs": {
+    "url": "https://github.com/banglafighter/mfront/issues"
+  },
+  "packageManager": "pnpm@10.28.2",
+  "exports": {
+    ".": {
+      "import": "./src/index.ts",
+      "types": "./src/index.ts",
+      "default": "./src/index.ts"
+    }
+  },
+  "files": [
+    "dist"
+  ],
+  "sideEffects": false,
+  "publishConfig": {
+    "access": "public",
+    "main": "./dist/index.js",
+    "module": "./dist/index.mjs",
+    "types": "./dist/index.d.ts",
+    "exports": {
+      ".": {
+        "import": "./dist/index.mjs",
+        "require": "./dist/index.js",
+        "types": "./dist/index.d.ts",
+        "default": "./dist/index.mjs"
+      }
+    }
+  },
+  "keywords": [
+    "mfront",
+    "mweb",
+    "maintainable",
+    "react",
+    "frontend",
+    "framework",
+    "router",
+    "mapend"
+  ]
+}

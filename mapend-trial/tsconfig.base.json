@@ -13,6 +13,7 @@
     "paths": {
       "mapend": ["dependencies/mapend"],
       "mapend-core": ["dependencies/mapend-core"],
+      "mmcore": ["dependencies/mmcore"],
     }
   },
   "include": ["**/*.ts", "**/*.tsx"],
